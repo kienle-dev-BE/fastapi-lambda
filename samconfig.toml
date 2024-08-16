@@ -1,0 +1,9 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "product-9"
+resolve_s3 = true
+s3_prefix = "product-9"
+region = "ap-southeast-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
+confirm_changeset = true
